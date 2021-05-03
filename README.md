@@ -16,7 +16,7 @@ Step 5 : Second, Trained on Pre-trained model(Tensorflow Zoo) SSD_EFFDETD0. Chec
                   2.Detection threshold optimum
                   3.Able to detect biunding box on low resolution images.
 
-Step 6 : Models shared on this link for evaluation :=
+Step 6 : Models shared on this link for evaluation := https://drive.google.com/drive/folders/1vXwY6-_qXJcPmfm-2KBbcmCJgOL_z6vo?usp=sharing
 
 **Issues:**
 1. Don't have my own GPU. So trained on Google colab. Model take lots of time to train and my GPU quota got exhausted on a daily basis. Not able to optimize model more robust.
