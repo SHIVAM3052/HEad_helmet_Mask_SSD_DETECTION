@@ -124,7 +124,11 @@ for i in range(len(train_df)):
     tfAnnot.difficult.append(0)
     
     total+=1
+    
+    
+    
 #%%
+# Check bounding box on images
 import matplotlib.pyplot as plt
 import cv2
 img = cv2.imread('C:/Users/Prashant/Downloads/OBJDET/dataset/images/0.jpg')
@@ -136,25 +140,3 @@ img1 = cv2.rectangle(img,(x1,y1),(x2,y2),(0,255,0),3)
 c = plt.imshow(img1)
 plt.show()
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-#%%   
-    
-    
-    
-
- 
-
